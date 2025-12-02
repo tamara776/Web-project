@@ -75,4 +75,57 @@
     #menu:checked + label .close{
         display:inline-block !important;
     }
+    /*header*/
+ .hero-section {
+    width: 100%;
+    margin: 0;
+    padding: 30px 15px;
+    background-size: cover;
+    background-position: center;
+    min-height: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   /* أهم سطر → يوسّط كل محتوى الهيرو */
+    text-align: center;
+  }
+
+  /* نخلي الجدول عمودي */
+  .hero-section table,
+  .hero-section tr,
+  .hero-section td {
+    display: block;
+    width: 100%;
+  }
+
+  /* النصوص بالنص */
+  .hero-section h1,
+  .hero-section p,
+  .hero-section .button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* زر learn more */
+  .hero-section .button {
+    display: inline-block;
+    margin-top: 15px;
+  }
+
+  /* الصورة بالنص بالكامل */
+  .hero-section img {
+    width: 260px;
+    max-width: 100%;
+    margin: 20px auto 0 auto;
+    display: block;
+  }
+
+  /* إزالة المسافات الجانبية من الديسكتوب */
+  .hero-section td:first-child,
+  .hero-section td:last-child {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin: 0 !important;
+  }
 }
