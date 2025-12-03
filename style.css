@@ -137,3 +137,48 @@ header {
   display: block;
 }
 
+/*sectio#1css*/
+.services-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;     
+    align-items: flex-start;
+    flex-wrap: wrap;             
+    gap: 25px;                   
+}
+
+.services-card {
+    width: 230px;                
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 15px;
+    box-shadow: 0 0 8px #089da1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.services-card:hover {
+    transform: translateY(-5px);
+}
+
+.services-card i {
+    font-size: 45px;
+    color: #089da1;
+    margin-bottom: 10px;
+}
+
+.services-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.services-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
