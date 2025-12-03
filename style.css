@@ -64,80 +64,76 @@ label .close{
     font-size:26px;}
     <!--headerCSS-->
 body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+header {
+  background-image: url("images/bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding: 40px 0;              
 }
 
-       
+
+   
 .hero-section {
-    width: 90%;
-    max-width: 1200px;
-    margin: 10px auto;
-    padding: 40px 20px;
-    background-image: url("images/bg.png");
-    background-size: cover;
-    background-position: center 30px;
-    background-repeat: no-repeat;
-    min-height: 600px;
-    background-color: rgba(255, 255, 255, 0.15);     
-}
-.hero-section td:first-child {
-    padding-right: 100px;    
-}
-.hero-section td:first-child > * {
-    margin-right: 100px !important;
-}
-
-.hero-section td:last-child > * {
-    margin-left:  100px !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 120px auto 50px auto;        
+  padding: 20px;
+  min-height: 400px;
 }
 
 
-.hero-section table {
-    border-collapse: separate !important;
-    border-spacing: 80px 0;     
+ .hero-text {
+  flex: 1 1 400px;
+  text-align: left;
+  color: #444;
 }
 
-
-.hero-section td {
-    padding: 20px;
-    vertical-align: middle;
-}
-
-h1 {
-    font-size: 40px;
-    margin: 0;
-    font-weight: bold;
+.hero-text h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .book {
-    color: #0bb5b5;
+  color: #0bb5b5;
+  margin-bottom: 25px;
 }
 
-p {
-    color: #444;
-    line-height: 1.6;
-    max-width: 450px;
+.hero-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 450px;
+  margin: 0 0 25px 0;            
 }
+
+
 
 .button {
-    padding: 10px 20px;
-    background: #0bb5b5;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    display: inline-block;
-    margin-top: 15px;
+  padding: 10px 20px;
+  background: #0bb5b5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: inline-block;
 }
 
-    
-.hero-section img {
-    width: 450px;
-    max-width: 100%;
-    margin-top: 5px;
+  
+.hero-image img {
+  width: 350px;
+  max-width: 100%;
+  margin-top: -30px;
+  display: block;
 }
-
 
