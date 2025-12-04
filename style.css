@@ -182,3 +182,35 @@ header {
     color: #555;
     line-height: 1.4;
 }
+
+/*about*/
+.about{
+width: 100%;
+height: auto;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.about .about-image img{
+width:800px;
+max-width: 100%;
+}
+.about .about-tag p{
+line-height: 1.5;
+width: 100%;
+max-width: 650px;
+text-align: justify;
+word-break: break-word;
+overflow-wrap: break-word;
+margin: 0 auto 15px auto;
+}
+.about .about-tag .about-btn{
+padding: 10px 20px;
+background-color: #089da1;
+text-decoration: none;
+color: #fff;
+position: block;
+margin: 0 auto;
+}
