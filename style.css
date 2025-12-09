@@ -371,7 +371,7 @@ background: #089da1;
 .newsletter-form{
 display: flex;
 gap: 8px;
-align-items: center;
+align-items:flex-start !important;
 flex-direction: column;
 
 }
