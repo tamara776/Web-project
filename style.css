@@ -247,15 +247,15 @@ margin: 0;
 
 .blog-icons{
 padding: 10px;
-align-items: center;
+
 display:flex;
 justify-content: space-between;
 
 }
 
-.blog-icons .material-icons{
+.blog-icons i{
 font-size: 20px;
-/*vertical-align: middle;*/
+margin-right: 10px;
 color: #089da1;
 
 }
