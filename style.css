@@ -344,6 +344,7 @@ color:#089da1;
 .socials{
 display: flex;
 gap:10px;
+align-items: flex-start;
 
 }
 
