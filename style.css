@@ -344,12 +344,12 @@ color:#089da1;
 .socials{
 display: flex;
 gap:10px;
-align-items: flex-start;
+align-items: flex-start !important;
 
 }
 
 .social-btn{
-display:inline-flex;
+    
 align-items: center;
 justify-content: center;
 width: 32px;
