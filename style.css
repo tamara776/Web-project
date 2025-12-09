@@ -465,4 +465,8 @@ margin: 0 auto;
 body {
     overflow-x: auto !important;
 }
+.featured_book h2{
+  text-align: center;
+  font-size: 30px;
+}
 
