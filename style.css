@@ -214,3 +214,255 @@ color: #fff;
 position: block;
 margin: 0 auto;
 }
+/* Featured Books */
+.featured_book {
+  width: 100%;
+  padding: 2em;
+  margin-bottom: 3em;
+}
+
+.featured_book h2 {
+  margin-bottom: 2em;
+}
+
+.featured_book .container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+  margin-bottom: 4em;
+}
+
+.featured_book .container .book_item {
+  flex: 0 0 auto;
+  border: 1px solid #969696;
+  text-align: center;
+  margin: 2em 0.5em;
+  transition: box-shadow 0.3s ease;
+}
+
+.featured_book .container .book_item img {
+  width: 8em;
+  height: 12em;
+  margin: 0.5em 2em;
+  text-align: center;
+}
+
+.featured_book .container .book_item h4 {
+  color: black;
+  margin-bottom: 0.5em;
+}
+
+.featured_book .container .book_item h6 {
+  color: #b2b2b2;
+  margin-bottom: 0.5em;
+}
+
+.featured_book .container .book_item h5 {
+  color: lightseagreen;
+  margin-bottom: 0.5em;
+  margin-left: 0.25em;
+}
+
+.featured_book .container .book_item:hover {
+  border: 1px solid #089da1;
+  box-shadow: 0 0 0.5em #089da1;
+}
+
+/* Footer */
+.footer {
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+}
+
+.footer .row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer .row .footer_about,
+.footer .row .quick-links,
+.footer .row .contact-info,
+.footer .row .follow-us,
+.footer .row .news-letter {
+  display: flex;
+  flex-direction: column;
+  width: 19%;
+  gap: 1em;
+  height: 30vh;
+}
+
+.footer .row h2 {
+  font-size: 1.25rem;
+}
+
+.footer .row .footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.footer .row .footer-list a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.footer .row .footer_about img {
+  width: 5em;
+}
+
+.footer .row .contact-type {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  height: 1em;
+}
+
+.footer .row .contact-type img {
+  height: 1em;
+}
+
+.footer .row .contact-type a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+.footer .row .contact-type a:hover {
+  color: #089da1;
+}
+
+.footer .row .news-letter .footer-list input {
+  border: 0px solid #ffffff;
+  border-radius: 2em;
+  outline: none;
+  padding: 0.6em;
+  background-color: #cacaca;
+}
+
+.footer .row .news-letter .footer-list button,
+.digital_book a,
+.about .aboutUs_card a,
+.intro_page a {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #089da1;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0.15em solid #089da1;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.footer .row .news-letter .footer-list button {
+  width: 40%;
+  border: none;
+}
+
+.footer .row .news-letter .footer-list button:hover,
+.digital_book a:hover,
+.about .aboutUs_card a:hover,
+.intro_page a:hover {
+  background-color: #ffffff;
+  color: #089da1;
+  border-color: #089da1;
+}
+
+.footer .designer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+
+.footer .designer i {
+  color: #089da1;
+}
+
+.footer .designer .designer-name {
+  color: #089da1;
+}
+#about {
+  scroll-margin-top: 80px;     
+}
+
+/*finaaaaaaalpart*/
+.featured_book{
+    overflow: visible;
+}
+.featured_book .container {
+    display: flex !important;
+    flex-wrap: nowrap !important;        
+    overflow-x: auto !important;   
+    overflow-y: hidden; 
+    scroll-behavior: smooth;  
+    gap: 20px;
+    justify-content: flex-start !important;
+}
+
+.book_item {
+    flex: 0 0 200px !important;
+    display: inline-block !important;
+
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background: #fff;
+
+    text-align: center;         
+}
+
+
+.book_item img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+     
+}
+.book_item a {
+    display: block;                  
+    width: fit-content;               
+    margin: 10px auto 0 auto;       
+    
+    padding: 8px 16px;
+    border: 2px solid #20B2AA;    
+    color: #20B2AA;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.book_item a:hover {
+    background: #007bff;
+    color: #fff;
+}
+.book_item h5 {
+    color: #007bff;     
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.featured_book {
+    overflow: visible !important;
+}
+
+.featured_book .container {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    gap: 20px !important;
+    padding: 20px !important;
+    white-space: normal !important;
+}
+
+body {
+    overflow-x: auto !important;
+}
+
