@@ -266,7 +266,7 @@ color:#111212;
 padding: 32px 0 12px;
 font-family: "Segoe UI",Arial, sana-serif;
 font-size: 14px;
-
+font-weight: 500;
 }
 
 .footer-inner{
@@ -284,6 +284,7 @@ align-items: start;
 margin: 0 0 12px;
 font-size: 17px;
 font-weight: 700;
+color: #111;
 }
 
 .footer-about .footer-logo-img{
@@ -331,6 +332,7 @@ color:#222;
 font-size: 14px;
 
 }
+
 
 .contact-row .material-icons{
 
