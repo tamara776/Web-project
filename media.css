@@ -1,0 +1,318 @@
+@media (max-width:768px){
+ 
+    nav{
+        padding:10px 10px;
+        flex-wrap:wrap;
+    
+    }
+
+    nav img{
+        width:70px;
+        margin-right:10px;
+        order:1;
+    }
+      
+    .icon{
+        order:2;
+        flex:1;
+        margin:0;
+        display:flex;
+        justify-content:center;   
+        gap:15px;
+        font-size:20px;
+    }
+
+        
+    label[for="menu"]{
+        order:3;
+        display:block;
+        margin-left:auto;
+        cursor:pointer;
+        margin-left: auto;
+    }
+
+        
+    label .open{
+        display:inline-block !important;
+    }
+
+        
+    label .close{
+        display:none !important;
+    }
+
+   nav ul{
+    order:4;
+    width:100%;
+    margin:0;
+    padding:15px 0;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+
+         
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(15px);
+
+    border: 1px solid rgba(255, 255, 255, 0.18);     
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    display:none;
+    position:relative;
+    top:10px;
+    z-index: 999;}
+
+    #menu:checked ~ ul{
+        display:flex;
+    }
+
+
+    #menu:checked + label .open{
+        display:none !important;
+    }
+
+    #menu:checked + label .close{
+        display:inline-block !important;
+    }
+.hero-section {
+    display: flex;
+    flex-direction: column;       
+    align-items: center;        
+    justify-content: center;
+    gap: 20px;                 
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+    
+  .hero-section h1 {
+    font-size: 28px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .hero-section p {
+    margin: 10px auto;
+    max-width: 90%; 
+    text-align: center;           
+  }
+
+    
+  .hero-section img {
+    width: 280px;
+    height: auto;
+    display: block;               
+    margin: -30px auto 0 auto;
+    text-align: center;
+    margin-top: -50px;
+    position: relative;
+    
+  }
+
+    
+  .hero-section .button {
+    display: block;  
+    margin: 10px auto;
+    text-align: center;
+    width: fit-content;
+
+}
+}
+/*media-for-section1*/
+@media (max-width: 480px) {
+  .services-box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+  }
+
+  .services-card {
+    width: 100%;       
+    max-width: 140px;  
+    height: 140px;     
+    padding: 8px 4px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px #089da1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .services-card i {
+    font-size: 22px; 
+    margin-bottom: 3px;
+  }
+
+  .services-card h3 {
+    font-size: 11px;
+    margin-bottom: 3px;
+  }
+
+  .services-card p {
+    font-size: 9px;
+    line-height: 1.2;
+  }
+}
+/*about*/
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .about .about-image img {
+        width: 90%;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .about .about-tag p {
+        width: 90%;
+        font-size: 13px;
+        line-height: 18px;
+        margin: 0 auto 15px auto;
+    }
+
+    .about .about-tag .about-btn {
+        padding: 8px 16px;
+        margin: 0 auto 15px auto;
+    }
+  }
+@media (max-width: 992px){
+
+    /* كتاب */
+    .books-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .reviews-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .digital-book {
+        height: 320px;
+    }
+
+    .digital-book .learn-btn {
+        left: 40px;
+        bottom: 22px;
+        padding: 11px 24px;
+        font-size: 15px;
+    }
+
+    /* BLOG */
+    .blog-card {
+        width: 48%;
+        margin: 1%;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    /* FOOTER */
+    .footer-inner {
+        grid-template-columns: repeat(2,1fr);
+        gap: 25px;
+        text-align: left;
+    }
+}
+
+
+
+/* ============================================================= */
+/* ================== RESPONSIVE FOR SMALL TABLETS ============== */
+/* ============== (مثلاً بين 600px و 780px) ====================== */
+/* ============================================================= */
+
+@media (max-width: 780px){
+
+    .blog-card{
+        width:100%;
+        float:none;
+        margin-bottom: 25px;
+    }
+
+    .blog-title{
+        font-size: 26px;
+    }
+
+    .blog-img{
+        height: 200px;
+    }
+
+    .blog-name{
+        font-size: 17px;
+        padding: 10px 8px;
+    }
+}
+
+
+
+
+/* ============================================================= */
+/* ================= RESPONSIVE FOR MOBILES ==================== */
+/* ============================================================= */
+
+@media (max-width: 600px){
+
+    /* الكتب */
+    .book-container {
+        grid-template-columns: 1fr;
+    }
+
+    .book-card img {
+        height: 180px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .reviews-container {
+        grid-template-columns: 1fr;
+    }
+
+    .digital-book {
+        height: 260px;
+    }
+
+    .digital-book .learn-btn {
+        font-size: 14px;
+        padding: 10px 18px;
+        bottom: 14px;
+        left: 18px;
+    }
+
+
+    /* FOOTER */
+    .footer-inner {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .newsletter-btn {
+        width: 100%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .footer-col h4 {
+        margin-top: 15px;
+    }
+}
